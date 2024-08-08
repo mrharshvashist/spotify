@@ -1,0 +1,240 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+
+#container{
+    height: 1300px;
+    width:auto ;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+}
+#heading{
+    height: 8%;
+    width: 100%;
+    /* background-color: #000000a3; */
+    background-color: #000000a3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+
+}
+#login{
+    height:90% ;
+    width: 60%;
+    background-color: #000000a3;
+    /* color: #fff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    overflow: hidden;
+}
+h1{
+    /* border: 1px solid red; */
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+}
+.via{
+    height: 45px;
+    display: flex;
+    overflow: hidden;
+    justify-content: start;
+    align-items: center;
+gap: 20px;
+    font-weight: bold;
+    color: white;
+    padding-left: 30px;
+    width: 300px;
+    border-radius: 50px ;
+    border: 1px solid rgb(93, 92, 92);
+}
+#logoX1,#logoX2,#logoX3{
+    height: 50%;
+    width: 8%;
+}
+#footer{
+    height: 5%;
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(198, 201, 204);
+    font-size: 12px;
+
+}
+#logo1{
+    height: 70%;
+
+}
+span{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+    width: 20%;
+    align-items: center;
+
+}
+hr{
+    width: 80%;
+    /* height: 20%; */
+    border: 1px solid rgba(92, 91, 91, 0.44);
+}
+#x,#y{
+    color: #fff;
+    /* position: absolute; */
+    /* top: 530px; */
+    /* display: flex; */
+    height:2% ;
+    width: 70%;
+    font-size: 13px;
+    justify-content: start;
+    /* border: 1px solid red; */
+    font-weight: bold;
+
+}
+#email,#password{
+    height: 60px;
+    width: 500px;
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 10px;
+    max-width: 650px;
+}
+#email::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+}
+#password::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+}
+#continue{
+    padding-left: 20px;
+}
+#login1{
+    height: 30%;
+    width: 90%;
+    justify-content: start;
+    padding-top: 50px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#login2{
+    height:50% ;
+    /* border: 1px solid red; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: start;
+    padding: 10px;
+    padding-left:10px;
+    gap: 15px;
+}
+#rememberMe{
+    height: 20px;
+    width: 40px;
+    border-radius: 50px ;
+    /* border: 1px solid rgb(13, 219, 96); */
+    background-color: #464846;
+    display: flex;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    justify-content: start;
+    transition: justify-content 5s;
+
+}
+#circle{
+    height: 17px;
+    width: 16px;
+    background-color: #000;
+    border-radius: 50%;
+}
+#remember{
+    /* position: absolute; */
+    color: white;
+    /* top: 633px; */
+    /* left: 200px; */
+    font-size: 12px;
+    padding-top: 0;
+    /* border: 1px solid red; */
+
+}
+#lgn{
+    height: 60px;
+    background-color: #24d84b;
+    border: none;
+    /* display: flex; */
+    /* justify-content: start; */
+    border-radius: 50px;
+    font-weight: 700;
+    width: 50%;
+}
+#neecheKiJaankari{
+    height: 50%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    /* padding: 30px; */
+    padding-top: 20px;
+    padding-right: 0px;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+}
+a{
+    color: #fff;
+}
+#have{
+    color: rgb(141, 140, 140);
+    font-weight: bold;
+}
+#r{
+    height: 6%;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    /* border: 1px solid rebeccapurple; */
+}
+#btn{
+    height: 100px;
+    width: 600px;
+    /* border: 1px solid red; */
+}
+#dont{
+    height: 100px;
+    width: 500px;
+    /* border: 1px solid red; */
+    gap: 10px;
+}
+.via:hover{
+    background-color: rgb(80, 79, 79);
+}
+.via:active{
+    background-color: black;
+
+}
